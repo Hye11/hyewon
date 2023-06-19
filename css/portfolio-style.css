@@ -1,34 +1,74 @@
-body {
-    margin: 0;
-}
-
 #wrap {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(216, 208, 202);
+    background-color: rgb(219, 210, 203);
+    display: flex;
+    align-items: center;
 }
 
 #wrap main {
-    width: 95%;
-    height: 95%;
+    width: 96%;
+    height: 93%;
     margin: auto auto;
     border: 2px solid grey;
 }
 
-#header {
-    margin: 25px 0 20px 45px;
-    height : 150px;
+#content {
+    margin-left: 60px;
+}
+
+#content ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.info-area {
+    margin: 0 0 25px 18px;
+    font-size: 14px;
+    color: rgb(97, 96, 96);
     display: grid;
-    grid-template-columns: 1fr 2fr 5fr;
+    gap: 15px;
 }
 
-#image img {
-    width: 100px;
-    height: 140px;
+.info-area-hidden, .education-area-hidden {
+    display: none;
 }
 
-#information a {
-    height: 100%;
-    display: flex;
-    align-items: center;
+.info-area a {
+    /* text-decoration: none; */
+    color: rgb(97, 96, 96);
+    cursor: pointer;
 }
+
+#vertical-line {
+    border-left: 2px solid rgb(148, 147, 146);
+    height: 20%;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#my-education {
+    padding-top: 8px;
+}
+
+.my-education-text {
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgb(97, 96, 96);
+}
+
+.my-education-status {
+    font-size: 14px;
+    color: rgb(97, 96, 96);
+    font-weight: 600;
+}
+
+.my-education-circle {
+    font-size: 20px;
+    margin-left: 16px;
+    color: rgb(148, 147, 146);
+}
+
+
+

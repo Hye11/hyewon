@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+#header {
+    margin: 25px 0 15px 80px;
+    height : 150px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 5fr;
+}
+
+#image img {
+    width: 100px;
+    height: 140px;
+    /* border-radius: 10%; */
+}
+
+#information a {
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.birth {
+    font-style: italic;
+    color: rgb(75, 75, 75);
+}
+
+#main a {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    margin-left: 610px;
+}
+
+#main img {
+    width: 25px;
+}
