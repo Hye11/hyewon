@@ -13,11 +13,21 @@
     border: 2px solid grey;
 }
 
+#content-all {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+}
+
 #content {
     margin-left: 60px;
 }
 
-#content ul li a {
+/* #content ul {
+    display: grid;
+    gap: 30px;
+} */
+
+#content ul li a, #content-side ul li a {
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -31,7 +41,7 @@
     gap: 15px;
 }
 
-.info-area-hidden, .education-area-hidden {
+.info-area-hidden, .education-area-hidden, .career-hidden, .career-side-hidden {
     display: none;
 }
 
@@ -41,7 +51,7 @@
     cursor: pointer;
 }
 
-#vertical-line {
+#content #vertical-line {
     border-left: 2px solid rgb(148, 147, 146);
     height: 20%;
     margin-left: 20px;
@@ -52,13 +62,13 @@
     padding-top: 8px;
 }
 
-.my-education-text {
+.my-education-text, .my-career-text {
     margin-left: 10px;
     font-size: 14px;
     color: rgb(97, 96, 96);
 }
 
-.my-education-status {
+.my-education-status, .my-career-status {
     font-size: 14px;
     color: rgb(97, 96, 96);
     font-weight: 600;
@@ -70,5 +80,15 @@
     color: rgb(148, 147, 146);
 }
 
+#content-side #vertical-line {
+    border-left: 2px solid rgb(148, 147, 146);
+    height: 5%;
+    margin-left: 20px;
+    position: absolute;
+}
 
-
+.my-career-circle {
+    font-size: 20px;
+    margin-left: 17px;
+    color: rgb(148, 147, 146);
+}

@@ -15,11 +15,12 @@
 
 h3 {
     margin-left: 80px;
+    color: #078735;
 }
 
 #project-info {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 4fr 5fr;
     margin-left: 80px;
 }
 
@@ -34,8 +35,10 @@ h3 {
     height: 25px;
 }
 
-#github-url a {
+#github-url {
     color: rgb(53, 53, 53);
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #content {
