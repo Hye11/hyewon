@@ -1,6 +1,6 @@
 #wrap {
-    width: 100vw;
-    height: 100vh;
+    width: max-content;
+    /* height: max-content; */
     background-color: rgb(219, 210, 203);
     display: flex;
     align-items: center;
@@ -19,9 +19,13 @@ h3 {
 }
 
 #project-info {
-    display: grid;
-    grid-template-columns: 4fr 5fr;
+    display: flex;
+    gap: 210px;
     margin-left: 80px;
+}
+
+#project-text {
+    margin-left: 15px;
 }
 
 #github {
@@ -62,10 +66,12 @@ h3 {
 }
 
 .development-environment {
-    margin-top: -80px;
+    margin-top: -15px;
     margin-left: 30px;
 }
 
 .development-environment img {
-    height: 400px;
+    height: 70%;
+    margin-top: -15px;
+    margin-right: 10px;
 }

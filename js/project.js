@@ -22,18 +22,16 @@ function Github(){
 }
 
 
-const infoText = document.querySelector(".project-info-text");
-const info = document.querySelector(".info");
-infoText.addEventListener("click", () => {
-    info.classList.toggle("info-hidden");
-});
+// const infoText = document.querySelector(".project-info-text");
+// const info = document.querySelector(".info");
+// infoText.addEventListener("click", () => {
+//     info.classList.toggle("info-hidden");
+// });
 
-const development = document.querySelector(".project-development");
-const developmentEnvironment = document.querySelector(".development-environment");
-development.addEventListener("click", () => {
-    developmentEnvironment.classList.toggle("development-environment-hidden");
-});
+// const development = document.querySelector(".project-development");
+// const developmentEnvironment = document.querySelector(".development-environment");
+// development.addEventListener("click", () => {
+//     developmentEnvironment.classList.toggle("development-environment-hidden");
+// });
 
-const skill = document.querySelector(".project-skill");
-
-
+// const skill = document.querySelector(".project-skill");
