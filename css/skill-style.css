@@ -3,8 +3,8 @@ body {
 }
 
 #wrap {
-    /* width: max-content;
-    height: max-content; */
+    width: max-content;
+    /* height: max-content; */
     background-color: rgb(219, 210, 203);
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ h1 {
 }
 
 #content {
-    margin: 20px 20px 0 40px;
+    margin: 20px 168px 0 40px;
 }
 
 #market-list, #market-write, #my-market-list, #market-edit, #market-chat {
